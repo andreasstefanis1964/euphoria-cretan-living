@@ -35,7 +35,7 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "name": "Site-02-02_1230-clone",
+    "name": "Euphoria Cretan Living",
     "versionFirst": "5.9.11",
     "siteFonts": [
       {
@@ -55,7 +55,16 @@
     },
     "uniqCompNum": 84,
     "versionPublish": "5.9.11",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": false,
+    "mbrsiteDomain": "x9ae3d6ebx",
+    "usedWebp": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
@@ -723,11 +732,11 @@
             }
           },
           "_cid": "u3kgfaT2kd",
+          "_anchor": "aheader4-2b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "aheader4-2b"
+          "_params": {}
         },
         {
           "alias": false,
@@ -865,11 +874,11 @@
             }
           },
           "_cid": "u3jSGrAF60",
+          "_anchor": "article01-26",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "article01-26"
+          "_params": {}
         },
         {
           "_name": "afeatures1",
@@ -1789,13 +1798,13 @@
             }
           },
           "_cid": "u3k4ansfqS",
+          "_anchor": "forms01-2a",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "forms01-2a",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         }
       ]
     },
