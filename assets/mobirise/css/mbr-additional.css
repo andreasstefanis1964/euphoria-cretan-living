@@ -1928,6 +1928,18 @@ blockquote {
     margin-right: 2rem !important;
   }
 }
+#custom-html-2c {
+  /* Type valid CSS here */
+}
+#custom-html-2c div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-2c p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-u3k4ansfqS {
   padding-top: 0px;
   padding-bottom: 45px;
