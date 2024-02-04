@@ -53,7 +53,7 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "uniqCompNum": 81,
+    "uniqCompNum": 83,
     "versionPublish": "5.9.11",
     "screenshot": "screenshot.png"
   },
@@ -1679,7 +1679,7 @@
           },
           "_name": "features1",
           "_sourceTheme": "voyagem4",
-          "_customHTML": "<section class=\"features1 voyagem4_features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" title=\"Count Items\" name=\"countItems\" min=\"1\" max=\"6\" value=\"4\" step=\"1\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" condition=\"showTitle\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"../_images/svg/compass.svg\" condition=\"showFigure && showTitle\">\n\t\t<input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n\t\t\n\t</mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-7 col-12\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\t\tAS YOUR PAXOS SPECIALIST</h3>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-7 col-10 offset-lg-1 offset-2\">\n\t\t\t\t<h3 class=\"mbr-section-title figure mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n\t\t\t\t\tWHAT WE DO FOR OUR CLIENTS MIGHT SEEM SIMPLE.\n\t\t\t\t</h3>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-3 offset-lg-1 col-9 offset-2 list__block\">\n\t\t\t\t<ul class=\"mbr-list\" mbr-list mbr-list-grow=\"countItems\">\n\t\t\t\t\t<li mbr-text class=\"list__item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list__item\">\n\t\t\t\t\t\t<span></span>Lorem ipsum dolor sit amet.\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li mbr-text class=\"list__item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list__item\">\n\t\t\t\t\t\t<span></span>Rem fugiat officiis culpa, molestiae dolor.\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-text class=\"list__item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list__item\">\n\t\t\t\t\t\t<span></span>Quos doloribus consectetur velit.\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-text class=\"list__item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list__item\">\n\t\t\t\t\t\t<span></span>Ut id veritatis repellendus soluta ipsam.\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"bottom__block\" mbr-if=\"showImage\">\n\t\t<div class=\"rotate__image\">\n\t\t\t<div class=\"image\">\n\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-9764-2000x1500.jpg\" alt title>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"rotate__image2\">\n\t\t\t<div class=\"image\">\n\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/05-3-740x560.jpg\" alt title>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"features1 voyagem4_features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" title=\"Count Items\" name=\"countItems\" min=\"1\" max=\"6\" value=\"4\" step=\"1\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" condition=\"showTitle\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/logo-hellasbnb-280x337.png\" condition=\"showFigure && showTitle\">\n\t\t<input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n\t\t\n\t</mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-7 col-12\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\t\tAS YOUR CRETE VACATION RENTALS SPECIALIST</h3>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-7 col-10 offset-lg-1 offset-2\">\n\t\t\t\t<h3 class=\"mbr-section-title figure mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n\t\t\t\t\tWHAT WE DO FOR OUR CLIENTS MIGHT SEEM SIMPLE.\n\t\t\t\t</h3>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-3 offset-lg-1 col-9 offset-2 list__block\">\n\t\t\t\t<ul class=\"mbr-list\" mbr-list mbr-list-grow=\"countItems\">\n\t\t\t\t\t<li mbr-text class=\"list__item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list__item\">\n\t\t\t\t\t\t<span></span>Lorem ipsum dolor sit amet.\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li mbr-text class=\"list__item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list__item\">\n\t\t\t\t\t\t<span></span>Rem fugiat officiis culpa, molestiae dolor.\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-text class=\"list__item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list__item\">\n\t\t\t\t\t\t<span></span>Quos doloribus consectetur velit.\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-text class=\"list__item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list__item\">\n\t\t\t\t\t\t<span></span>Ut id veritatis repellendus soluta ipsam.\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"bottom__block\" mbr-if=\"showImage\">\n\t\t<div class=\"rotate__image\">\n\t\t\t<div class=\"image\">\n\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-9764-2000x1500.jpg\" alt title>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"rotate__image2\">\n\t\t\t<div class=\"image\">\n\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/05-3-740x560.jpg\" alt title>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "u37ZVHgwTi",
           "_anchor": "features1-3",
           "_protectedParams": [],
@@ -2040,7 +2040,7 @@
           },
           "_name": "slider2",
           "_sourceTheme": "voyagem4",
-          "_customHTML": "<section class=\"slider2 voyagem4_slider2 mbr-embla\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"embla\" data-interval=\"false\">\n\n\t<mbr-parameters>\n\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" condition=\"showTitle\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/logo-hellasbnb-280x337.png\" condition=\"showFigure && showTitle\">\n\t\t<header>Carousel</header>\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n\t\t<input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n\t\t<input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked>\n\t\t<input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n\t\t<input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked>\n\t\t<input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked>\n\t\t<header>Cards</header>\n\t\t<input type=\"checkbox\" title=\"Card Image\" name=\"cardImage\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Subtitle\" name=\"cardSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"cardTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Text\" name=\"cardText\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Buttons\" name=\"cardButtons\" checked>\n\t\t<input type=\"color\" title=\"Border Color\" value=\"#ddebe9\" name=\"borderColor\">\n\t\t<input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n\t\t<input type=\"checkbox\" title=\"Show Arrows\" name=\"showArrows\" checked>\n\t\t<input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#003d59\" condition=\"showArrows\">\n\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#c0e8e2\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n\n\t</mbr-parameters>\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showText || showSubtitle\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-8 col-12\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\t\tPOPULAR\n\t\t\t\t</h3>\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-lg-11 offset-lg-1 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-title figure mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">TOURS in CRETE</h3>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-7 col-12\">\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">\n\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Quis debitis, illo ex cupiditate\n\t\t\t\t\t\t\terror laboriosam earum\n\t\t\t\t\t\t\trepellendus amet facere fugiat, similique, et aut obcaecati quisquam beatae. Odit,\n\t\t\t\t\t\t\texplicabo, excepturi. Quae.\n\t\t\t\t\t\t</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"embla mt-4\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"start\" data-contain-scroll=\"trimSnaps\">\n\t\t<div class=\"embla__viewport container-fluid\">\n\t\t\t<div class=\"embla__container\">\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-9764-2000x1500-800x600.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">1 day</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Gaios, Paxos</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Ionian islands, Greece</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/blue-grotto-4551408-1920-1920x1080.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t8 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Secret caves, Paxos island</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\t\tIonian islands, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-9835-2000x1500-800x600.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">2 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Amazing Beaches, Paxos island</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\t\tIonian islands, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/voyage11.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t6 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\n\t\t\t\t\t\t\t\t\t\t\t\tOslo, Bergen, Trondheim\n\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\t\tNorway\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<button class=\"embla__button embla__button--prev\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Previous</span>\n\t\t</button>\n\t\t<button class=\"embla__button embla__button--next\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Next</span>\n\t\t</button>\n\t</div>\n\n\n</section>",
+          "_customHTML": "<section class=\"slider2 voyagem4_slider2 mbr-embla\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"embla\" data-interval=\"false\">\n\n\t<mbr-parameters>\n\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" condition=\"showTitle\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/logo-hellasbnb-280x337.png\" condition=\"showFigure && showTitle\">\n\t\t<header>Carousel</header>\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n\t\t<input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n\t\t<input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked>\n\t\t<input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n\t\t<input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked>\n\t\t<input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked>\n\t\t<header>Cards</header>\n\t\t<input type=\"checkbox\" title=\"Card Image\" name=\"cardImage\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Subtitle\" name=\"cardSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"cardTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Text\" name=\"cardText\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Buttons\" name=\"cardButtons\" checked>\n\t\t<input type=\"color\" title=\"Border Color\" value=\"#ddebe9\" name=\"borderColor\">\n\t\t<input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n\t\t<input type=\"checkbox\" title=\"Show Arrows\" name=\"showArrows\" checked>\n\t\t<input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#003d59\" condition=\"showArrows\">\n\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#c0e8e2\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n\n\t</mbr-parameters>\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showText || showSubtitle\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-8 col-12\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\t\tPOPULAR\n\t\t\t\t</h3>\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-lg-11 offset-lg-1 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-title figure mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">AREAS to visit in CRETE</h3>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-7 col-12\">\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">\n\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Quis debitis, illo ex cupiditate\n\t\t\t\t\t\t\terror laboriosam earum\n\t\t\t\t\t\t\trepellendus amet facere fugiat, similique, et aut obcaecati quisquam beatae. Odit,\n\t\t\t\t\t\t\texplicabo, excepturi. Quae.\n\t\t\t\t\t\t</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"embla mt-4\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"start\" data-contain-scroll=\"trimSnaps\">\n\t\t<div class=\"embla__viewport container-fluid\">\n\t\t\t<div class=\"embla__container\">\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-9764-2000x1500-800x600.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">1 day</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Gaios, Paxos</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Ionian islands, Greece</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/blue-grotto-4551408-1920-1920x1080.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t8 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Secret caves, Paxos island</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\t\tIonian islands, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-9835-2000x1500-800x600.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">2 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Amazing Beaches, Paxos island</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\t\tIonian islands, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/voyage11.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t6 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\n\t\t\t\t\t\t\t\t\t\t\t\tOslo, Bergen, Trondheim\n\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\t\tNorway\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<button class=\"embla__button embla__button--prev\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Previous</span>\n\t\t</button>\n\t\t<button class=\"embla__button embla__button--next\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Next</span>\n\t\t</button>\n\t</div>\n\n\n</section>",
           "_cid": "tbz0uWIfbw",
           "_anchor": "slider2-4",
           "_protectedParams": [],
@@ -2049,167 +2049,15 @@
           "_params": {}
         },
         {
-          "_name": "aform1",
-          "_sourceTheme": "networkm5",
-          "_customHTML": "<section class=\"form5\" group=\"Forms\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Map</header>\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3267.4894220277583!2d25.510053675007544!3d35.01948417280803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAxJzEwLjEiTiAyNcKwMzAnNDUuNSJF!5e0!3m2!1sen!2sde!4v1707047923243!5m2!1sen!2sde&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3267.4894220277583!2d25.510053675007544!3d35.01948417280803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAxJzEwLjEiTiAyNcKwMzAnNDUuNSJF!5e0!3m2!1sen!2sde!4v1707047923243!5m2!1sen!2sde&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/networkm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div class=\"container-fluid\">\n        <div class=\"row main-row\">\n            <div class=\"col-map\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n            </div>\n            <div class=\"col-form\">\n                <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                        <b>Get in touch</b>\n                    </h3>\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                        Venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.\n                        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.\n                        Phasellus viverra nulla.\n                    </h4>\n                </div>\n                <div class=\"row justify-content-center\">\n                    <div mbr-form class=\"col-12 mbr-form\">\n                        <form action name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                            <div class=\"row\">\n                                <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">\n                                    Thanks for filling out the form!\n                                </div>\n                                <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                                    Oops...! some problem!\n                                </div>\n                            </div>\n                            <div class=\"dragArea row\">\n                                <div class=\"col-12 col-md-6 form-group mb-2\" data-for=\"name\">\n                                    <input type=\"text\" name=\"name\" placeholder=\"Name\" data-form-field=\"name\" class=\"form-control\" value>\n                                </div>\n                                <div class=\"col-12 col-md-6 form-group mb-2\" data-for=\"email\">\n                                    <input type=\"email\" name=\"email\" placeholder=\"E-mail\" data-form-field=\"email\" class=\"form-control\" value>\n                                </div>\n                                <div class=\"col-12 form-group mb-2\" data-for=\"textarea\">\n                                    <textarea name=\"textarea\" placeholder=\"Message\" data-form-field=\"textarea\" class=\"form-control\"></textarea>\n                                </div>\n                                <div mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-lg-12 col-md-12 col-sm-12 mbr-section-btn\">\n                                    <a type=\"submit\" class=\"btn btn-primary-outline\">SEND</a>\n                                </div>\n                            </div>\n                        </form>\n                    </div>\n                </div>\n            </div>\n        </div>\n        </div>\n    \n</section>",
+          "_name": "forms01",
+          "_sourceTheme": "creativem4",
+          "_customHTML": "<section class=\"map1 forms01 creativem4_forms01\" group=\"Forms\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Titles\" name=\"showTitle\" checked condition=\"textBlocks>0\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked condition=\"textBlocks>0\">\n        <input type=\"range\" inline name=\"textBlocks\" title=\"Text Blocks\" min=\"0\" max=\"3\" value=\"3\" step=\"1\">\n        <header>Icons</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <select name=\"iconsAlign\" title=\"Icons Align\" condition=\"showIcons\">\n            <option value=\"left\" selected>left</option>\n            <option value=\"center\">center</option>\n            <option value=\"right\">right</option>\n        </select>\n        <hr>\n        <input type=\"color\" title=\"Card Bg\" name=\"cardBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Left Column Bg 1\" name=\"columnBg1\" value=\"#135d53\">\n        <input type=\"color\" title=\"Left Column Bg 2\" name=\"columnBg2\" value=\"#c0e8e2\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3267.4894220277583!2d25.510053675007544!3d35.01948417280803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAxJzEwLjEiTiAyNcKwMzAnNDUuNSJF!5e0!3m2!1sen!2sde!4v1707047923243!5m2!1sen!2sde&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3267.4894220277583!2d25.510053675007544!3d35.01948417280803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAxJzEwLjEiTiAyNcKwMzAnNDUuNSJF!5e0!3m2!1sen!2sde!4v1707047923243!5m2!1sen!2sde&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\">\n        <input type=\"color\" title=\"Bg Color\" name=\"bgColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n\n    <div class=\"container wrapper\">\n        <div class=\"row main-row\">\n            <div class=\"col-sm-12 col-lg-4 col-md-6 px-0 text-block\">\n                <div class=\"content-panel\">\n                    <div class=\"text-block pb-3\" mbr-if=\"textBlocks > 0\">\n                        <h3 class=\"mbr-title mbr-fonts-style align-left mbr-white pb-2 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">VISIT US</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">70004 Sikologos village, Crete, Greece</p>\n                    </div>\n                    <div class=\"text-block pb-3\" mbr-if=\"textBlocks>1\">\n                        <h3 class=\"mbr-title mbr-fonts-style align-left mbr-white pb-2 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">CALL US</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">+30 698 1216 408</p>\n                    </div>\n                    <div class=\"text-block\" mbr-if=\"textBlocks>2\">\n                        <h3 class=\"mbr-title mbr-fonts-style align-left mbr-white pb-2 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">LET'S DO SMTH\n                            AMAZING.\n                        </h3>\n                        <p class=\"mbr-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Fill this out so we can learn more about you and your needs.\n                        </p>\n                    </div>\n                    <div class=\"social-list pl-0 mb-0\" mbr-if=\"showIcons\" mbr-class=\"{'pt-4':textBlocks > 0 }\">\n                        <div class=\"soc-item\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div mbr-form class=\"col-sm-12 col-lg-8 col-md-6 form-container\">\n                <!---Formbuilder Form--->\n                <form action name=\"My Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out\n                            the form!</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                        </div>\n                    </div>\n                    <div class=\"dragArea form-row\">\n                        <div class=\"col-md-12\">\n                            <h2 mbr-theme-style=\"display-2\" class=\"mbr-fonts-style mbr-section-title mbr-fonts-style pb-3 title\" data-app-selector=\".wrapper .row .title\">Tell us about your dream.\n                            </h2>\n                        </div>\n                        <div class=\"col-md-12 col-lg-6 form-group\" data-for=\"firstname\">\n                            <input type=\"text\" name=\"firstname\" placeholder=\"First Name\" data-form-field=\"First Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                        </div>\n                        <div data-for=\"email\" class=\"col-md-12 col-lg-6 form-group\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Email*\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\">\n                        </div>\n                        <div data-for=\"phone\" class=\"col-md-12 col-lg-6 form-group\" hidden=\"hidden\">\n                            <input type=\"text\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control\" hidden=\"hidden\">\n                        </div>\n                        <div data-for=\"lastname\" class=\"col-md-12 col-lg-6 form-group\" hidden=\"hidden\">\n                            <input type=\"text\" name=\"lastname\" placeholder=\"Last Name\" data-form-field=\"Last Name\" mbr-theme-style=\"display-7\" class=\"form-control\" hidden=\"hidden\">\n                        </div>\n                        <div data-for=\"message\" class=\"col-md-12   form-group\">\n                            <textarea name=\"message\" placeholder=\"Message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n                        </div>\n                        <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\" class=\"col-md-12 input-group-btn \">\n                            <a type=\"submit\" class=\"btn btn-form btn-primary\">Do it</a>\n                        </div>\n                    </div>\n                </form>\n                <!---Formbuilder Form--->\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            ".mbr-overlay": {
-              "background-color": "@overlayColor",
-              "opacity": "@overlayOpacity"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".container-fluid": {
-              "display": "flex",
-              "padding": "0 !important"
-            },
-            "& when (@reverseContent)": {
-              ".main-row": {
-                "flex-direction": "row-reverse"
-              }
-            },
-            ".main-row": {
-              "display": "flex",
-              "align-items": "center",
-              "width": "100%",
-              "@media (max-width: 1200px)": {
-                "align-items": "center"
-              },
-              "& when not (@reverseContent)": {
-                "padding-right": "0",
-                "@media (min-width: 1025px)": {
-                  "padding-right": "calc(~'(100% - 960px)/ 2') !important"
-                },
-                "@media (min-width: 1201px)": {
-                  "padding-right": "calc(~'(100% - 1100px)/ 2') !important"
-                },
-                "@media (min-width: 1441px)": {
-                  "padding-right": "calc(~'(100% - 1300px)/ 2') !important"
-                }
-              },
-              "& when (@reverseContent)": {
-                "padding-left": "0 !important",
-                "@media (min-width: 1025px)": {
-                  "padding-left": "calc(~'(100% - 960px)/ 2') !important"
-                },
-                "@media (min-width: 1201px)": {
-                  "padding-left": "calc(~'(100% - 1100px)/ 2') !important"
-                },
-                "@media (min-width: 1441px)": {
-                  "padding-left": "calc(~'(100% - 1300px)/ 2') !important"
-                }
-              },
-              "@media (max-width: 1024px)": {
-                "width": "768px",
-                "margin": "0 auto"
-              },
-              "@media (max-width: 800px)": {
-                "width": "86%"
-              }
-            },
-            ".col-map": {
-              "width": "57% !important",
-              "@media (max-width: 1024px)": {
-                "width": "100% !important"
-              }
-            },
-            ".col-form": {
-              "width": "43% !important",
-              "padding-top": "25px",
-              "@media (min-width: 1025px)": {
-                "& when not (@reverseContent)": {
-                  "padding-left": "64px !important"
-                },
-                "& when (@reverseContent)": {
-                  "padding-right": "64px !important"
-                }
-              },
-              "@media (max-width: 1024px)": {
-                "width": "100% !important"
-              }
-            },
-            ".mbr-section-title": {
-              "margin-bottom": "25px"
-            },
-            ".mbr-section-head": {
-              "margin-bottom": "20px"
-            },
-            "form": {
-              ".dragArea.row": {
-                "justify-content": "flex-start"
-              },
-              ".mbr-section-btn": {
-                "margin-top": "12px",
-                ".btn": {
-                  "width": "max-content",
-                  "min-width": "140px"
-                },
-                "@media (max-width: 800px)": {
-                  "display": "flex",
-                  "flex-wrap": "wrap",
-                  "& .btn": {
-                    "width": "100%",
-                    "box-shadow": "none !important"
-                  }
-                }
-              },
-              ".form-group": {
-                "margin-bottom": "8px !important"
-              },
-              ".form-control": {
-                "border": "1px solid  !important",
-                "border-image-slice": "1 !important",
-                "border-image-source": "linear-gradient(70deg, #57b8e0, #5762e2, #be8ec6) !important",
-                "box-shadow": "none !important",
-                "border-radius": "0 !important",
-                "margin-bottom": "0",
-                "padding": "23px 30px",
-                "font-size": "17px",
-                "line-height": "24px",
-                "color": "#a0a0a0",
-                "font-weight": "400",
-                "&::-webkit-input-placeholder": {
-                  "color": "#a0a0a0"
-                },
-                "&::-moz-placeholder": {
-                  "color": "#a0a0a0"
-                },
-                "&:-moz-placeholder": {
-                  "color": "#a0a0a0"
-                },
-                "&:-ms-input-placeholder": {
-                  "color": "#a0a0a0"
-                }
-              },
-              "textarea": {
-                "height": "146px"
-              },
-              "input": {
-                "&:active, &:focus": {
-                  "color": "#000 !important",
-                  "&::-webkit-input-placeholder": {
-                    "color": "#000"
-                  },
-                  "&::-moz-placeholder": {
-                    "color": "#000"
-                  },
-                  "&:-moz-placeholder": {
-                    "color": "#000"
-                  },
-                  "&:-ms-input-placeholder": {
-                    "color": "#000"
-                  }
-                }
-              }
-            },
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
             ".google-map": {
-              "height": "573px",
+              "height": "50rem",
               "position": "relative",
               "iframe": {
                 "height": "100%",
@@ -2217,6 +2065,7 @@
               },
               "[data-state-details]": {
                 "color": "#6b6763",
+                "font-family": "Montserrat",
                 "height": "1.5em",
                 "margin-top": "-0.75em",
                 "padding-left": "1.25rem",
@@ -2232,24 +2081,154 @@
               "&[data-state=\"loading\"]": {
                 "[data-state-details]": {
                   "display": "none"
+                },
+                "&::after": {}
+              }
+            },
+            ".wrapper": {
+              "margin-top": "-10rem",
+              "background": "@cardBg",
+              "-webkit-box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "border-radius": "40px",
+              "border-collapse": "separate",
+              "-webkit-perspective": "1px",
+              "perspective": "1px",
+              "overflow": "hidden",
+              ".row": {
+                "-webkit-box-pack": "end",
+                "-ms-flex-pack": "end",
+                "justify-content": "flex-end",
+                "-webkit-box-align": "stretch",
+                "-ms-flex-align": "stretch",
+                "align-items": "stretch",
+                "border-radius": "40px",
+                "border-collapse": "separate",
+                "-webkit-perspective": "1px",
+                "perspective": "1px",
+                ".btn": {
+                  "border-radius": "30px",
+                  "padding": "0.8rem 3rem !important"
+                },
+                ".title": {
+                  "color": "@primaryColor"
+                }
+              },
+              ".form-container": {
+                "padding": "3rem",
+                "border-radius": "40px",
+                "border-collapse": "separate",
+                "-webkit-perspective": "1px",
+                "perspective": "1px",
+                "overflow": "hidden"
+              }
+            },
+            ".content-panel": {
+              "padding": "3rem",
+              "background": "linear-gradient(45deg, @columnBg1, @columnBg2)",
+              "height": "100%",
+              "border-top-right-radius": "0.25rem",
+              "border-bottom-right-radius": "0.25rem",
+              "overflow": "hidden",
+              "display": "flex",
+              "-webkit-box-orient": "vertical",
+              "-webkit-box-direction": "normal",
+              "-ms-flex-direction": "column",
+              "flex-direction": "column"
+            },
+            ".mbr-text": {
+              "color": "#efefef"
+            },
+            ".form-control": {
+              "border-radius": "10px !important",
+              "-webkit-box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "min-height": "40px"
+            },
+            "textarea.form-control": {
+              "min-height": "170px"
+            },
+            ".social-list": {
+              "margin-top": "auto",
+              "padding-left": "0",
+              "margin-bottom": "0",
+              "display": "flex",
+              "-ms-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "& when (@iconsAlign = \"left\")": {
+                "-webkit-box-pack": "start",
+                "-ms-flex-pack": "start",
+                "justify-content": "flex-start"
+              },
+              "& when (@iconsAlign = \"center\")": {
+                "-webkit-box-pack": "center",
+                "-ms-flex-pack": "center",
+                "justify-content": "center"
+              },
+              "& when (@iconsAlign = \"right\")": {
+                "-webkit-box-pack": "end",
+                "-ms-flex-pack": "end",
+                "justify-content": "flex-end"
+              },
+              ".mbr-iconfont-social": {
+                "font-size": "1.2rem",
+                "color": "#fff"
+              },
+              ".mbr-iconfont:before": {
+                "padding": "0.5rem",
+                "border": "2px solid",
+                "border-radius": "100px",
+                "border-style": "dotted"
+              },
+              ".soc-item": {
+                "margin": "15px 3px 0px 3px"
+              },
+              "a": {
+                "margin": "0",
+                "opacity": "0.7",
+                "-webkit-transition": "0.2s linear",
+                "transition": "0.2s linear",
+                "&:hover": {
+                  "opacity": "1"
                 }
               }
             },
-            "form .row": {
-              "margin-left": "-4px !important",
-              "margin-right": "-4px !important"
-            },
-            "form .row [class*=col]": {
-              "padding-left": "4px !important",
-              "padding-right": "4px !important"
+            "@media (max-width: 767px)": {
+              ".container": {
+                "max-width": "80% !important"
+              },
+              ".wrapper": {
+                "margin-top": "0",
+                "border-radius": "40px",
+                ".main-row": {
+                  "-webkit-box-orient": "vertical",
+                  "-webkit-box-direction": "reverse",
+                  "-ms-flex-direction": "column-reverse",
+                  "flex-direction": "column-reverse",
+                  ".text-block": {
+                    ".content-panel": {
+                      "border-radius": "0 0 30px 30px !important",
+                      ".social-list": {
+                        "margin-left": "auto",
+                        "margin-right": "auto"
+                      }
+                    }
+                  }
+                }
+              },
+              ".form-container": {
+                "border-radius": "30px 30px 0 0 !important"
+              }
             }
           },
-          "_cid": "u3jNzsD4it",
+          "_cid": "u3k4ansfqS",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "aform1-25"
+          "_anchor": "forms01-2a",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         }
       ]
     },
